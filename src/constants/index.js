@@ -33,11 +33,6 @@ export const skills = [
 		type: 'Frontend',
 	},
 	{
-		imageUrl: express,
-		name: 'Express',
-		type: 'Backend',
-	},
-	{
 		imageUrl: git,
 		name: 'Git',
 		type: 'Version Control',
@@ -99,6 +94,14 @@ export const socialLinks = [
 
 export const projects = [
 	{
+		iconUrl: summiz,
+		theme: 'btn-back-pink',
+		name: 'Face Detection',
+		description:
+			'Created a Face Detection using the Clarifai API face recognition AI models to detect medium to high resolution pictures with React. You can detect any person from close or afar.',
+		link: 'https://facedetectionapplication.netlify.app/',
+	},
+	{
 		iconUrl: threads,
 		theme: 'btn-back-green',
 		name: 'Video Game Discovery',
@@ -106,28 +109,21 @@ export const projects = [
 			'Created a React application with Chakra-UI to create an application where users can view different games and filter them by category, console, and more.',
 		link: 'https://videogame-discovery.netlify.app/',
 	},
-	{
-		iconUrl: snapgram,
-		theme: 'btn-back-pink',
-		name: 'Social Media Dashboard',
-		description:
-			'Built a dashboard with HTML, SCSS, and JavaScript. This helped me understand how to design my code in a maintainable and scalable way.',
-		link: 'https://social-media-dash-mikey.netlify.app/',
-	},
+
 	{
 		iconUrl: pricewise,
 		theme: 'btn-back-red',
-		name: 'URL Saver Chrome Extension',
+		name: 'Etch-A-Sketch',
 		description:
-			'Created a chrome extension that allows users to save links from chrome browser. This was expired due to the fact that I hate having tons of bookmarks for different websites.',
-		link: 'https://github.com/spannmikey/url-saver',
+			'Created an application that allows you to sketch a drawing when hovering over the grid. Users can change the grid size and change the colors they use as they draw.',
+		link: 'https://etching-and-sketching.netlify.app/',
 	},
 	{
 		iconUrl: estate,
 		theme: 'btn-back-black',
 		name: 'Portfolio Project',
 		description:
-			'Developed a 3d portfolio to host and share my talent across the web with future employers. Challenged me to learn how the 3d works and implement good design practices.',
+			'Created a 3d portfolio to host and share my talent across the web with future employers. Challenged me to learn how the 3d works and implement good design practices.',
 		link: 'https://mspann-portfolio.netlify.app',
 	},
 ];

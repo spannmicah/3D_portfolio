@@ -1,12 +1,5 @@
-import {
-	VerticalTimeline,
-	VerticalTimelineElement,
-} from 'react-vertical-timeline-component';
-
 import { CTA } from '../components';
-import { experiences, skills } from '../constants';
-
-import 'react-vertical-timeline-component/style.min.css';
+import { skills } from '../constants';
 
 const About = () => {
 	return (
@@ -14,10 +7,8 @@ const About = () => {
 			<h1 className='head-text'>
 				Hello, I'm{' '}
 				<span className='blue-gradient_text font-semibold drop-shadow'>
-					{' '}
 					Micah
-				</span>{' '}
-				👋
+				</span>
 			</h1>
 
 			<div className='mt-5 flex flex-col gap-3 text-slate-500'>
@@ -63,7 +54,7 @@ const About = () => {
 							target='_blank'
 							rel='no-referrer'>
 							resume
-						</a>{' '}
+						</a>
 						for more.
 					</p>
 				</div>

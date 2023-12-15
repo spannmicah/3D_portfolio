@@ -16,7 +16,7 @@ const Projects = () => {
 
 			<p className='text-slate-500 mt-2 leading-relaxed'>
 				Throughout my journey as a front-end developer I've had my ups and downs
-				but I always looked to the future.Thinking about how satisfying it will
+				but I always looked to the future. Thinking about how satisfying it will
 				feel once I complete the project and help someone solve a problem. I
 				have compiled a few of the projects that really helped me improve as a
 				developer and some of my favorite projects worked on. Please feel free

@@ -16,7 +16,7 @@ const HomeInfo = ({ currentStage }) => {
 			<div className='info-box'>
 				<p className='font-medium sm:text-xl text-center'>
 					Picked up many front-end skills with companies and am looking to apply
-					them even more
+					them more
 				</p>
 
 				<Link

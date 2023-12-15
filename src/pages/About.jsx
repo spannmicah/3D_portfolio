@@ -43,13 +43,13 @@ const About = () => {
 			<div className='py-6'>
 				<h3 className='subhead-text'>Work experience</h3>
 				<div className='mt-5 flex flex-col gap-3 text-slate-500'>
-					<p className='text-xl '>
+					<p className='text-md '>
 						I've worked with companies like CSI that helped me grow and improve
 						both my character and my technical craft. Joining forces with many
 						intelligent people to get a project done. Please see my{' '}
 						<a
 							className='blue-gradient_text font-semibold cursor-pointer'
-							href='https://magenta-hannie-11.tiiny.site/'
+							href='https://apricot-timothea-93.tiiny.site/'
 							target='_blank'
 							rel='no-referrer'>
 							resume {''}

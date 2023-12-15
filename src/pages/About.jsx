@@ -47,13 +47,12 @@ const About = () => {
 						I've worked with companies like CSI that helped me grow and improve
 						both my character and my technical craft. Joining forces with many
 						intelligent people to get a project done. Please see my{' '}
-						{/* Add resume link here */}
 						<a
 							className='blue-gradient_text font-semibold cursor-pointer'
 							href='https://magenta-hannie-11.tiiny.site/'
 							target='_blank'
 							rel='no-referrer'>
-							resume
+							resume {''}
 						</a>
 						for more.
 					</p>
